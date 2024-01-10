@@ -20,5 +20,63 @@ header h1{
   background-color: rgba(196, 196, 196, 0.164);
   width: 100%;
   height: 50px;
-  padding: 5px;
+  padding: 2px 15px;
+  border-radius: 10px;
+}
+
+.task{
+  background-color: rgba(196, 196, 196, 0.164);
+  padding: 10px;
+  margin: 5px;
+  overflow-x: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.task span{
+  color: rgba(0, 0, 0, 0.769);
+}
+
+.icon{
+  float: right;
+  margin-right: 30px;
+}
+
+article{
+  display: grid;
+  padding: 1px;
+  background-color: transparent;
+}
+
+.edit-todo{
+  width: 80%;
+  border: none;
+  outline:none;
+  border-bottom: 5px;
+  font-size: 21px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.605);
+}
+
+.button{
+  margin: 1% 10px 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  outline: none;
+  border: none;
+  font-size: 17px;
+  height: 33px;
+  width: 115px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.button.selected{
+  color:black;
+  background-color: aqua;
+}
+.clear{
+  float: right;
+  width: 180px;
 }
